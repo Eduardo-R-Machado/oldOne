@@ -342,3 +342,31 @@ main{
     background: var(--first-color);
     border-radius: 20px;
 }
+
+.slides{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    padding-top: 2rem;
+}
+
+.slides h2{
+    color: #fff;
+    font-family: var(--title-font);
+    margin-bottom: 2rem;
+}
+
+.swiper {
+    width: 600px;
+    height: 380px;
+  }
+
+
+.swiper img{
+    width: 100%;
+    object-fit: contain;
+    max-height: 22rem;
+}
