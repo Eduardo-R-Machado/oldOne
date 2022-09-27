@@ -28,3 +28,24 @@ const swiper = new Swiper('.swiper', {
       el: '.thin',
     },
   });
+
+
+function aparecerBoxDev() {
+    let boxDev = document.querySelector('.box-logo-dev');
+    boxDev.style.display = 'flex';
+    setTimeout(function () {
+        boxDev.style.opacity = '1';
+    }, 1);
+
+}
+function desaparecerBoxDev() {
+    let boxDev = document.querySelector('.box-logo-dev');
+
+    setTimeout(function () {
+        boxDev.style.opacity = '0';
+    }, 3000);
+    setTimeout(function () {
+        boxDev.style.display = 'none';
+    }, 3500);
+}
+
